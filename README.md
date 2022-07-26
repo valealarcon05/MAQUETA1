@@ -8,3 +8,4 @@ A: added (agregado)[cuando se pone git add . (se agregan todos los archivos), si
 para subir: git push -u origin
 >>>>>>> origin/main
 cambio en index, agrego html5
+probe nuevamente con git push solo y se subió correctamente
