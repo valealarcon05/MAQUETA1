@@ -1,6 +1,10 @@
-h1{
-    color: burlywood;
-}
-p{
-    color: black;
-}
+body {
+    background-color: linen;
+ }
+ h1 {
+    color: maroon;
+    margin-left: 40px;
+ }
+ p{
+    color:black
+ }
