@@ -2,13 +2,14 @@ estado de los archivos
 U: untracked files(git sabe que está pero no tiene registro)
 M: modifed(git sabe que está ahí pero sabe que está modificado)
 A: added (agregado)[cuando se pone git add . (se agregan todos los archivos), sino git add <archivo>]
-para subir: git push -u origin
+para subir: git push -u origin (se sube a la rama main)
 >>>>>>> origin/main
 cambio en index, agrego html5
 probe nuevamente con git push solo y se subió correctamente
 para html:
 los <h1-6> sirven para encabezados
 los <p> sirven para cuerpo o párrafo
+<span> sirve para separar parte de un párrafo de otro
 <b> sirve para texto en negrita
 <u> se subraya el texto
 <strike> se tacha el texto
@@ -44,3 +45,15 @@ contenido, normalmente con un encabezado
 ● alink: establece un color para los enlaces activos o los enlaces seleccionados.
 ● link: establece un color para el texto vinculado.
 ● vlink: establece un color para los enlaces visitados, es decir, para el texto vinculado en el que ya ha hecho clic
+====
+CSS: define conjunto de reglas que permiten describir cada parte que componen estilos CSS, para cambiar los valores predeterminados en html
+h1 {propiedad(https://carontestudio.com/blog/listado-de-propiedades-css/) : valor de la propiedad}
+selector: se le asigna estilo personalizado
+    universal: selecciona todos los elementos de la página
+    de tipo o etiqueta: selecciona los elementos de la página que etiqueta HTML coincide con el valor del selector
+    descendente: seleciona los elementos que se encuentran dentro de otros
+declaración: : especifica los estilos que se aplican a los elementos:
+        p span(elemento descendiente) { propiedad: valor;}(selecciona todos los textos)
+        h1 span {propiedad: valor;}
+para destacar solo un párrafo específico se indica el párrafo desde html por <p class="destacado">...</p> y luego en css .destacado{color:blue;}
+para vincular html de css se usa en index.html en <head> con <link rel="stylesheet" href="styles.css">
