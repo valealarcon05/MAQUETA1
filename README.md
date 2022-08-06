@@ -6,6 +6,7 @@ para subir: git push -u origin (se sube a la rama main)
 >>>>>>> origin/main
 cambio en index, agrego html5
 probe nuevamente con git push solo y se subió correctamente
+luego de colocar html5, se coloca el bootstrap(cosas interesantes) en head y el javascript(abr ventanas modales) en body y el fontoawesome en html(agrga iconos)
 para html:
 los <h1-6> sirven para encabezados
 los <p> sirven para cuerpo o párrafo
