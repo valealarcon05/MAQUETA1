@@ -10,16 +10,16 @@ luego de colocar html5, se coloca el bootstrap(cosas interesantes) en head y el 
 los <h1-6> sirven para encabezados
 los <p> sirven para cuerpo o párrafo
 <span> sirve para separar parte de un párrafo de otro
-<b> sirve para texto en negrita
-<u> se subraya el texto
-<strike> se tacha el texto
-<strong> destaca texto más que negrita(<b>)
-el <i> marca con cursiva o itálica
-el <br> marca salto de línea de texto
+<b> sirve para texto en negrita<b>
+<u> se subraya el texto<u>
+<strike> se tacha el texto<strike>
+<strong> destaca texto más que negrita(<b>)<strong>
+el <i> marca con cursiva o itálica<i>
+el <br> marca salto de línea de texto<br>
 con <tt> se escribe en fuente donde todas las letras tienen igual tamaño
-las fuentes: <font> agrega estilo, tamaño y color al texto específico y <basefont> configura todo el texto del mismo estilo(casi no se usan)
-<em> marca con énfasis el texto
-<li> para cada elementode la lista
+las fuentes<tt>: <font> agrega estilo, tamaño y color al texto específico<font> y <basefont> configura todo el texto del mismo estilo(casi no se usan)<basefont>
+<em> marca con énfasis el texto<em>
+<li> para cada elementode la lista<li>
 <ol> listas ordenadas, con <ol type="a,A,I,1"> es el tipo de letra d inicio y con <ol reverse> da la lista ordenada al reves y con <ol start="..."> indicas donde empieza la lista
 con <ul> se da una lista desarmada y con <ul type> algunos modos
 <div> se usa para contener otros elementos HTML y con CSS se usa para agregar formato a un bloque de contenido
