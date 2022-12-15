@@ -4,7 +4,6 @@ M: modifed(git sabe que está ahí pero sabe que está modificado)
 A: added (agregado)[cuando se pone git add . (se agregan todos los archivos), sino git add <archivo>]
 para subir: git push -u origin (se sube a la rama main)
 probe nuevamente con git push solo y se subió correctamente
->>>>>>> origin/main
 # cambio en index, agrego html5
 luego de colocar html5, se coloca el bootstrap(cosas interesantes) en head y el javascript(abr ventanas modales) en body y el fontoawesome en html(agrga iconos)
 ## para html:
