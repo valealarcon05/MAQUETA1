@@ -1,13 +1,13 @@
-estado de los archivos
+# Estado de los archivos:
 U: untracked files(git sabe que está pero no tiene registro)
 M: modifed(git sabe que está ahí pero sabe que está modificado)
 A: added (agregado)[cuando se pone git add . (se agregan todos los archivos), sino git add <archivo>]
 para subir: git push -u origin (se sube a la rama main)
->>>>>>> origin/main
-cambio en index, agrego html5
 probe nuevamente con git push solo y se subió correctamente
+>>>>>>> origin/main
+# cambio en index, agrego html5
 luego de colocar html5, se coloca el bootstrap(cosas interesantes) en head y el javascript(abr ventanas modales) en body y el fontoawesome en html(agrga iconos)
-para html:
+## para html:
 los <h1-6> sirven para encabezados
 los <p> sirven para cuerpo o párrafo
 <span> sirve para separar parte de un párrafo de otro
@@ -18,7 +18,7 @@ los <p> sirven para cuerpo o párrafo
 el <i> marca con cursiva o itálica
 el <br> marca salto de línea de texto
 con <tt> se escribe en fuente donde todas las letras tienen igual tamaño
-las fuentes: <font> agrega estilo, tamaño y color al texto específoc y <basefont> configura todo el texto del mismo estilo(casi no se usan)
+las fuentes: <font> agrega estilo, tamaño y color al texto específico y <basefont> configura todo el texto del mismo estilo(casi no se usan)
 <em> marca con énfasis el texto
 <li> para cada elementode la lista
 <ol> listas ordenadas, con <ol type="a,A,I,1"> es el tipo de letra d inicio y con <ol reverse> da la lista ordenada al reves y con <ol start="..."> indicas donde empieza la lista
