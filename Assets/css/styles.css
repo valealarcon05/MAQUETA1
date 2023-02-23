@@ -6,7 +6,7 @@
     border-color: rgb(116, 116, 239);
 }
 .banner{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Assets/imgs/banner.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/Assets/imgs/bannerpng.png);
     background-size: cover;
     position: relative;
     display: inline-block;
@@ -25,13 +25,21 @@ h6{
     position: center;
 }
 .col-6{
-    margin-top: -3%;
+    margin-top: -10%;
     margin-left: -20%;
 }
+/*experiencia*/
 .Experiencia{
     background-color: white;
 }
 h1{
     text-align: left;
     padding: 5%;
+    animation:alternate-reverse
+}
+.dropdown-toggle{
+    background-color: aliceblue;
+}
+.carousel-control-prev-icon{
+    color: black;
 }
