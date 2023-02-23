@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<!-- si está lento, este scriptt pasarlo a body-->
+<script src="https://kit.fontawesome.com/3fd503a7d1.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <!--barra navegación-->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="Assets/imgs/logo arg prog.png" alt="logo Argentina Programa" class="w=100" img-fluid>
+          </a>
+          <ul class="nav justify-content-end">
+            <!--boton que envía al login-->
+            <li class="nav-item">
+              <a class="nav-link" href="/login.html"><button class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-regular fa-user"></i></button></a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-1">
+          </div>
+          <div class="col-2">
+            <img src="/Assets/imgs/foto perfil.png" alt="foto perfil" class="rounded-circle img-fluid">
+            <h5>Valentina Alarcón</h5>
+            <h6>Estudiante de Biología<br>
+            Desarrolladora web full Stack Jr.</h6>
+            <div class="list-group">
+                <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#redesModal" class="link"> Social media <i class="fa-solid fa-hashtag"></i></a>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#infoModal" class="link"> Mi información <i class="fa-solid fa-circle-info"></i></a>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#experienciaModal" class="link"> Experiencia <i class="fa-solid fa-briefcase"></i></a>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#educacionModal" class="link"> Educación <i class="fa-solid fa-book"></i></a>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#HabilidadesModal" class="link"> Habilidades <i class="fa-solid fa-medal"></i></a>
+                </button>
+                <button type="button" class="list-group-item list-group-item-action">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#proyectosModal" class="link"> Proyectos <i class="fa-solid fa-handshake"></i></i></a>
+                </button>
+              </div>
+        </div>
+        <div class="col-8">
+            <!--redesmodal-->
+            <div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h2>Ingresar</h2>
+                        <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text"></div>
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary">Ingresar</button>
+                      </div>
+                      <small><a href="registro.html">¿Todavía no estás registrado?</a></small>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--infomodal-->
+            <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Experienciamodal-->
+            <div class="modal fade" id="experienciaModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Educaciónmodal-->
+            <div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--habilidadesmodal-->
+            <div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--proyectosmodal-->
+            <div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+        <div class="col-1">
+        </div>
+        </div>
+      </div>
+<!--formulario de login-->
+<section class="login">
+    <div class="container text-center">
+    <div class="row">
+      <div class="col-2">
+      </div>
+      <div class="col-8 formulario-login">
+       
+      </div>
+      <div class="col-2">
+    
+      </div>
+    </div>
+    </div>
+</section>   
+<!--footer-->
+    <footer class="bg-black text-white text-center fs-6">
+        <div class="pt-3">
+          <p>&copy Copyright Valentina Alarcón - 2023</p>
+        </div>
+      </footer>
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src=""output/app.js"></script>
+</body>
+</html>

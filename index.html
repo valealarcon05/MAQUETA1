@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="Assets/css/styles.css">
 </head>
 <body>
+  <!--barra navegación-->
   <nav class="navbar bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -31,21 +32,20 @@
         <li class="nav-item">
           <a class="nav-link" href="https://github.com/valealarcon05"><button class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-brands fa-github"></i></button></a>
         </li>
-        <!--boton login-->
-        <li class="nav-item"></li>
-        <button class="btn" type="button"data-bs-toggle="modal" data-bs-target="#LoginModal">
-          <i class="fa-regular fa-user"></i>
-        </button>
-       </li>
+        <!--boton que envía al login-->
+        <li class="nav-item">
+          <a class="nav-link" href="/login.html"><button class="btn btn-sm btn-outline-secondary" type="button"><i class="fa-regular fa-user"></i></button></a>
+        </li>
       </ul>
     </div>
   </nav>
   
+  <!--portfolio-->
   <!--banner-->
   <div class="banner">
     <div class="centrado">          
-          <h1 class="text-center"><b>Bienvenido...</b></h1>
-            <h2>Soy Valentina Alarcón</h2>
+          <h1 class="text-center"><b>Bienvenido, soy...</b></h1>
+            <h2>Valentina Alarcón</h2>
             <h3>Estudiante de Biología<br>
             Desarrolladora web full Stack Jr.</h3>
     </div>    
@@ -62,6 +62,11 @@
                 <li><a class="dropdown-item" href="#Experiencia">Experiencia</a></li>
                 <li><a class="dropdown-item" href="#Educación">Educación</a></li>
                 <li><a class="dropdown-item" href="#Habilidades">Habilidades</a></li>
+                <ul>
+                  <li><a class="dropdown-item" href="#HardSkills">Hard Skills</a></li>
+                  <li><a class="dropdown-item" href="#Idiomas">Idiomas</a></li>
+                  <li><a class="dropdown-item" href="#SoftSkills">Soft Skills</a></li>
+                </ul>
                 <li><a class="dropdown-item" href="#Proyectos">Proyectos</a></li>
               </ul>
             </div>
@@ -113,7 +118,7 @@
                       <p class="card-text">En IMBECU-CONICET <br>
                       Realizo pasantias en el laboratorio de Inmunología y desarrollo de vacunas <br>
                     Desde el mes de Junio de 2022 hasta la actualidad</p>
-                      <a href="https://www.mendoza.conicet.gov.ar/imbecu/" class="btn btn-primary"><i class="fa-light fa-browser"></i></a>
+                      <a href="https://www.mendoza.conicet.gov.ar/imbecu/" class="btn btn-primary"><i class="fa-solid fa-globe"></i></a>
                     </div>
                   </div>
                 </div>
@@ -131,8 +136,8 @@
         </button>
       </div>
     </section>
-
-    <!--Educación-->
+  
+    <!--Educación(falta agregar certificados)-->
     <section class="Educación">
       <a name="Educación"><h1>Educación</h1></a>
       <div class="container text-center">
@@ -185,10 +190,10 @@
       </div>
     </section>
 
-    <!--Habilidades-->
-<section class="Habilidades">
+    <!--Habilidades(falta agregar)-->
+    <section class="Habilidades">
   <a name="Habilidades"><h1>Habilidades</h1></a>
-  <h2>Hard Skills</h2>
+  <a name="HardSkills"><h2>Hard Skills</h2></a>
   <div class="accordion" id="accordion">
     <div class="accordion-item">
       <h2 class="accordion-header" id="headingOne">
@@ -203,8 +208,8 @@
     </div></strong>
   </div>
 </div>
-</div>
-<div class="accordion-item">
+    </div>
+    <div class="accordion-item">
   <h2 class="accordion-header" id="headingTwo">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
       <i class="fa-regular fa-file-excel"></i><h4>EXCEL</h4>
@@ -217,8 +222,8 @@
       </div></strong>
     </div>
   </div>
-</div>
-<div class="accordion-item">
+    </div>
+    <div class="accordion-item">
   <h2 class="accordion-header" id="headingThree">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
       <i class="fa-brands fa-square-js"></i><h4>JAVASCRIPT</h4>
@@ -231,11 +236,11 @@
       </div></strong>
     </div>
   </div>
-</div>
-<div class="accordion-item">
+    </div>
+    <div class="accordion-item">
   <h2 class="accordion-header" id="headingFour">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-      <i class="fa-solid fa-r"></i><space><h4>Lenguaje R</h4></space>
+      <i class="fa-brands fa-r-project"></i><space><h4>Lenguaje R</h4></space>
     </button>
   </h2>
   <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -245,8 +250,8 @@
       </div></strong>
     </div>
   </div>
-</div>
-<div class="accordion-item">
+    </div>
+    <div class="accordion-item">
   <h2 class="accordion-header" id="headingFive">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFour">
       <i class="fa-solid fa-code"></i><h4>Lenguaje Phyton</h4>
@@ -259,8 +264,8 @@
       </div></strong>
     </div>
   </div>
-</div>
-<div class="accordion-item">
+    </div>
+    <div class="accordion-item">
   <h2 class="accordion-header" id="headingSix">
     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
       <i class="fa-brands fa-html5"></i><h4>HTML</h4>
@@ -273,8 +278,8 @@
 </div></strong>
 </div>
 </div>
-</div>
-<div class="accordion-item">
+    </div>
+    <div class="accordion-item">
   <h2 class="accordion-header" id="headingSeven">
     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
       <i class="fa-brands fa-css3-alt"></i><h4>CSS</h4>
@@ -287,8 +292,8 @@
 </div></strong>
 </div>
 </div>
-</div>
-<div class="accordion-item">
+    </div>
+    <div class="accordion-item">
   <h2 class="accordion-header" id="headingEight">
     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
       <i class="fa-brands fa-angular"></i><h4>Angular</h4>
@@ -301,8 +306,23 @@
 </div></strong>
 </div>
 </div>
-</div>
-<h2>Idiomas</h2>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingNine">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+          <h4>SQL</h4>
+    </button>
+    </h2>
+    <div id="collapseNine" class="accordion-collapse collapse show" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+    <div class="accordion-body">
+    <strong> <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 40%"></div>
+    </div></strong>
+    </div>
+    </div>
+    </div>
+    </div>
+    <a name="Idiomas"><h2>Idiomas</h2></a>
 <table class="table">
   <thead>
     <tr>
@@ -329,7 +349,7 @@
     </tr>
   </tbody>
 </table>
-<h2>Soft Skills</h2>
+<a name="SoftSkills"><h2>Soft Skills</h2></a>
 <p>
   <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Responsable</a>
   <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Organizada</button>
@@ -383,9 +403,9 @@
   </div>
 </div>
 
-</section>
-<!--Proyectos-->
-<section class="Proyectos">
+    </section>
+<!--Proyectos(agregar)-->
+    <section class="Proyectos">
   <a name="Proyectos"><h1>Proyectos</h1></a>
   <div id="carouselExample" class="carousel carousel-dark slide">
     <div class="carousel-inner">
@@ -425,9 +445,14 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-</section>
-  <!--login-->
-</div>
+    </section>
+<!--footer-->
+<footer class="bg-black text-white text-center fs-6">
+  <div class="pt-3">
+    <p>&copy Copyright Valentina Alarcón - 2023</p>
+  </div>
+</footer>
+<!--login-->
   <div class="modal fade" id="LoginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
@@ -454,7 +479,7 @@
       </div>
     </div>
   </div>
-</div>
+  </div>
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src=""output/app.js"></script>
