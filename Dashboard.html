@@ -61,33 +61,38 @@
             <div class="modal fade" id="redesModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                   <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="modal-header text-center">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Tus redes</h1>
                     </div>
-                    <div class="modal-body">
-                        <h2>Ingresar</h2>
-                        <div class="modal-body">
-                    <form>
-                        <div class="mb-3">
-                          <label for="exampleInputEmail1" class="form-label">Email</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                          <div id="emailHelp" class="form-text"></div>
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col-1">
                         </div>
-                        <div class="mb-3">
-                          <label for="exampleInputPassword1" class="form-label">Contraseña</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1">
+                        <div class="col-10">
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">Linkedn</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input placeholder">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Instagram</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Another input placeholder">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput3" class="form-label">Facebook</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Another input placeholder">
+                          </div>
+                          <div class="mb-3">
+                            <label for="formGroupExampleInput4" class="form-label">GitHub</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput4" placeholder="Another input placeholder">
+                          </div>
                         </div>
-                      </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-secondary">Ingresar</button>
+                        <div class="col-1">
+                        </div>
                       </div>
-                      <small><a href="registro.html">¿Todavía no estás registrado?</a></small>
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
                     </div>
                   </div>
                 </div>
@@ -97,15 +102,58 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Acerca de...</h1>
                     </div>
                     <div class="modal-body">
-                      ...
+                      <div class="container px-4 text-center">
+                        <p>¿Cómo te llamas?</p>
+                        <div class="row gx-5">
+                          <div class="col">
+                           <div class="p-3"> 
+                            <input type="text" class="form-control" placeholder="Nombres" aria-label="First name">
+                          </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3"> 
+                              <input type="text" class="form-control" placeholder="Apellidos" aria-label="First name">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">¿A qué te dedicas?</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="¿En qué te ocupas?">
+                      </div>
+                      <div class="mb-3">
+                        <label for="formGroupExampleInput" class="form-label">Resumen</label>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Cuentanos, ¿que haces para vivir?">
+                      </div>
+                      <div class="container overflow-hidden text-center">
+                        <div class="row gx-5">
+                          <div class="col">
+                           <div class="p-3">
+                            <div class="mb-3">
+                              <label for="formFile" class="form-label">¿Qué imagen define tu ocupación?</label>
+                              <input class="form-control" type="file" id="formFile">
+                            </div>
+                           </div>
+                          </div>
+                          <div class="col">
+                            <div class="p-3"><label for="exampleColorInput" class="form-label">Color del texto</label>
+                              <input type="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Elige tu color">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="mb-3">
+                        <label for="formFileSm" class="form-label">Muestra tu cara al mundo</label>
+                        <input class="form-control form-control-sm" id="formFileSm" type="file">
+                      </div>
                     </div>
+
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
                     </div>
                   </div>
                 </div>
@@ -115,15 +163,35 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">¿Qué experiencias laborales tienes?</h1>
                     </div>
                     <div class="modal-body">
-                      ...
-                    </div>
+                      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Agregar trabajo</button>
+                        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Experiencia</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <div class="row g-3">
+      <div class="col-sm-7">
+        <input type="text" class="form-control" placeholder="Nombre empresa" aria-label="Name">
+        <input type="text" class="form-control" placeholder="Referencia" aria-label="Name">
+      </div>
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="Desde" aria-label="Date">
+      </div>
+      <div class="col-sm">
+        <input type="text" class="form-control" placeholder="Hasta" aria-label="Date">
+        <button type="submit" class="btn btn-primary">Guardar</button>
+      </div>
+    </div>
+  </div>
+                        </div>
+                      </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
                     </div>
                   </div>
                 </div>
@@ -133,16 +201,38 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Educación</h1>
                     </div>
                     <div class="modal-body">
-                      ...
-                    </div>
+                      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1" aria-controls="offcanvasBottom1">Agregar instituto</button>
+                        <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom1" aria-labelledby="offcanvasBottomLabel1">
+                          <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">instituto</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                          </div>
+                          <div class="offcanvas-body small">
+                            <div class="row g-3">
+                              <div class="col-sm-7">
+                                <input type="text" class="form-control" placeholder="Título obtenido" aria-label="Name">
+                                <input type="text" class="form-control" placeholder="Nombre instituto" aria-label="Name">
+                              </div>
+                              <div class="col-sm">
+                                <input type="text" class="form-control" placeholder="Desde" aria-label="Date">
+                              </div>
+                              <div class="col-sm">
+                                <input type="text" class="form-control" placeholder="Hasta" aria-label="Date">
+                                <button type="submit" class="btn btn-primary">Guardar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <button type="button" class="btn btn-primary">Guardar</button>
                     </div>
+                    </div>
+                  
                   </div>
                 </div>
             </div>
@@ -151,7 +241,7 @@
                 <div class="modal-dialog modal-dialog-centered modal-lg">
                   <div class="modal-content">
                     <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Habilidades</h1>
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
