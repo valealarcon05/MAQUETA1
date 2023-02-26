@@ -44,10 +44,8 @@
 #fotoperfil{
     width: 100%;
     height: 100%;
-    position: relative;
 }
 #indice{
-    width: 50%;
     height: 20vh;
     background-color: rgb(209, 209, 223);
     overflow: relative;
@@ -70,27 +68,37 @@ section.presentacion{
 }
 
 /*experiencia*/
-.seccion1{
-    text-align: center;
-}
 .Experiencia{
     background-color: white;
-}
-.card-body{
-    align-items: center;
 }
 h1{
     text-align: left;
     padding: 5%;
-    animation:alternate-reverse
 }
-.dropdown-toggle{
-    background-color: aliceblue;
+#logovalentine{
+    width: min-content;
+    margin-left: 40%;
 }
-/*colores carousel*/
+#logoinstagram1{
+    text-decoration: none;
+    color: #000;
+}
+#logowhatsapp{
+    color: #000;
+}
+#fotoconsultas{
+    width: min-content;
+    margin-left: 30%;
+}
+#logoimbecu{
+    width: 30%;
+    margin-left: 50%;
+}
+/*colores carouseleducacion*/
 .carousel-control-prev-icon{
     color: black;
 }
+/*login*/
 .login{
     height: 70vh;
 }
