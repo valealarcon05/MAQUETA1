@@ -1,3 +1,8 @@
+/*etiq html va el nombre solo*/
+/*clases va con "." delante*/
+/*ID va con "#" delante*/
+
+
 /*barra navegación*/
 .bg-body-tertiary{
     background-color: rgb(178, 178, 186);
@@ -5,6 +10,14 @@
 .btn-outline-success{
     color: rgb(116, 116, 239);
     border-color: rgb(116, 116, 239);
+}
+#logoarg{
+    width: 50%;
+}
+#bienvenido{
+    text-align: center;
+    vertical-align: auto;
+    animation: alternate;
 }
 /*banner*/
 .banner{
@@ -24,6 +37,24 @@
         opacity: 0,3;
     }
     */
+/*foto perfil*/
+.col-6{
+    margin-left: -24%;
+}
+#fotoperfil{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#indice{
+    width: 50%;
+    height: 20vh;
+    background-color: rgb(209, 209, 223);
+    overflow: relative;
+    border-style: rgb(209, 209, 223);
+    animation: ease-in-out 10ms ease 1ms infinite normal forwards;
+    margin-top: -10%;
+}
 .centrado{
     color:rgb(209, 209, 223);
 }
@@ -31,18 +62,22 @@ section.presentacion{
     background-color: aliceblue;
 }
 /*descripción foto perfil*/
-h6{
+#acerca-de{
     margin-top: 5%;
-    position: center;
+    text-align: center;
+    font-size: medium;
+    font-style: oblique;
 }
-/*foto perfil*/
-.col-6{
-    margin-top: -10%;
-    margin-left: -20%;
-}
+
 /*experiencia*/
+.seccion1{
+    text-align: center;
+}
 .Experiencia{
     background-color: white;
+}
+.card-body{
+    align-items: center;
 }
 h1{
     text-align: left;
