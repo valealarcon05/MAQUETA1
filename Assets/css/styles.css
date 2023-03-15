@@ -98,6 +98,12 @@ h1{
 .carousel-control-prev-icon{
     color: black;
 }
+/*habilidades*/
+#duras{
+    text-decoration: none;
+    color: #000;
+    animation: none;
+}
 /*login*/
 .login{
     height: 70vh;
